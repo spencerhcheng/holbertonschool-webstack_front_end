@@ -1,0 +1,7 @@
+/* nested declaration for text and hover */
+button {
+	color: #FF0000;
+	&:hover {
+		color: #00f00;
+	}
+}
