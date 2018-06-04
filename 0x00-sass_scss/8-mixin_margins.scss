@@ -1,0 +1,8 @@
+/* mixin */
+@mixin margin($margin_size) {
+	margin-left: $n;
+	margin-right: $n;
+}
+
+body { @include margin(10px); }
+div { @include margin(15px); }
